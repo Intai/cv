@@ -1,0 +1,210 @@
+% LaTeX resume using res.sty
+\documentstyle[fancyhead]{res} 
+% Use \documentstyle[fancyhead,newcent]{res} to get New Century Schoolbook
+% Postscript font; the fancyhead option is used to get 2 line header
+% Use \documentstyle[fancyhead]{res} to get default (Computer Modern) font
+\setlength{\topmargin}{-0.6in}  % Start text higher on the page 
+\setlength{\textheight}{9.8in}  % increase textheight to fit more on a page
+\setlength{\headrulewidth}{0pt} % suppress line drawn by default with fancyhead
+\setlength{\headsep}{0.2in}     % space between header and text
+\setlength{\headheight}{12pt}   % make room for header
+
+%\lhead{\hspace*{-\sectionwidth}Brenda Baud} % force lhead all the way left
+%\rhead{Page \thepage}  % put page number at right
+\cfoot{}  % the footer is empty
+\pagestyle{fancy} % set pagestyle for the document
+\begin{document} 
+
+% Center the name over the entire width of resume:
+\moveleft.5\hoffset\centerline{\large\bf Intai Huang}
+% Draw a horizontal line the whole width of resume:
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+\moveleft.5\hoffset\centerline{100A Owairaka Ave.}
+\moveleft.5\hoffset\centerline{Mt. Albert, Auckland}
+\vspace{0.1in}
+\moveleft.5\hoffset\centerline{Phone: (09) 845-8580}
+\moveleft.5\hoffset\centerline{Mobile: (021) 107 5713}
+\moveleft.5\hoffset\centerline{Email: intai.hg@gmail.com}
+
+\begin{resume}
+\vspace{0.1in}
+
+\section{EDUCATION}
+\vspace{0.1in} 
+Software Education Associates Ltd,\\
+Advanced C++ Programming, 8-10 June 2009
+
+The University of Auckland,\\
+Master of Science with First Class Honours,\\
+in Computer Science, 2004 
+ 
+The University of Auckland,\\
+Bachelor of Technology with First Class Honours,\\
+in Information Technology, 2000-2003 
+ 
+Lynfield College, 1998-1999 
+ 
+\section{SKILLS PROFILE} 
+\vspace{0.1in}
+
+I have 9+ years commercial experience in software development with C/C++, Objective C, PHP and Javascript on handheld devices and web environment. In the last two years of my study at The University of Auckland, I focused on computer graphics which uses OpenGL and DirectX intensively.\\\\
+The experience of making the Cube Game on PSP platform in Metia Interactive extended my knowledge of computer graphics and programming within the hardware restrictions that applies to mobile devices. I also made a demo with Gamebryo and evaluated C4, Trinigy and Torque.\\\\
+At Navman Technology, I comprehended the importance of discipline in a large-scale software development team through coding standard, peer review and extensive use of bug/task tracking system. Application of agile project management also helps in enforcing discipline by involving quality assurance throughout the entire development and by reflecting and adapting to changes in short iterations.\\\\
+The team leader experience at Fishpond Ltd has elevated my organising and coordinating skills within the team and between departments. As a team leader: 
+
+\begin{itemize}
+\item[$\circ$] I'm a good listener.
+\item[$\circ$] Create a team environment where team members can concentrate without being distracted by rapid changing flood of tasks and ideas.
+\item[$\circ$] Create an atmosphere to have the freedom to be creative. At the same time keep the creativity collectively as a team.
+\item[$\circ$] Assign tasks out of individual team members' comfort zones gradually to build or extend skills, and make the jobs more exciting and challenging.\\\\
+\end{itemize} 
+Developing the mobile consumer app and sites at GrabOne has extensively expanded my knowledge of Javascript, HTML5 and limitations of different mobile browsers. Also I have learnt Symfony framework with Doctrine and JQuery Mobile. Gained more experience on iOS and Android platform from making and maintaining the GrabOne merchant app.\\\\
+Developed and hosting PixPrism (http://pixprism.com) with Symfony2, MySql, Sass, RequireJs and Puppet on EC2 and S3 to experiment possibilities with Javascript. Leverage the same code base and servers for XianBridal (http://xianbridal.co.nz). Also developing SpeakMandarin\\(http://speakmandarin.today) with a booking system.
+
+\section{WORK HISTORY and EXPERIENCE} 
+\vspace{0.15in} 
+
+\begin{tabular}{ll}
+\parbox[t]{35mm}{Present - \\ 2014, Feb,\\at GrabOne} & \parbox[t]{111mm}{
+
+Developed GrabOne merchant app on iOS using Auto Layout, Core Data and ZBar library. The app consumes JSON response from API. Currently implementing offline capability for unstable internet connection.
+
+}\\\\
+\parbox[t]{35mm}{Present - \\ 2011, Jun,\\at GrabOne} & \parbox[t]{111mm}{
+
+Started working at GrabOne which sells online daily deals and coupons. (http://grabone.co.nz) Responsible for the iOS native wrapper and mobile sites. The native side involves Key Chain, Passbook, Reminders integration and cookies management, location awareness, push and local notification. The web side uses Symfony1.4 and our version of forked JQuery Mobile with optimisations for GrabOne. Cross domain login is implemented with CORS. Offline capability is achieved with HTML5 application cache. Scrolling and key frame animation implemented with CSS transition and Javascript. 
+
+}\\\\
+\parbox[t]{35mm}{2011, Jun - \\ 2010, Jul,\\at Fishpond} & \parbox[t]{111mm}{
+
+Took the responsibility of leading the release team to improve stability of customer sites and internal tools. The team had three QAs and a developer who carried out release process and maintained Nagios alerts. The QAs did manual testing and automated regression tests using Selenium across different browsers. Performance test through XHProf, Pingdom and Circonus. Load test through JMeter. As the team leader, I also coordinated end user testing for internal tools with other departments. Wrote outage reports describing what went wrong, how we can prevent them from happening again and how to catch them sooner.
+\\\\
+The team later expanded outside release management to include three more overseas developers. It was quite a challenge to have smooth and efficient communication digitally across different time zones using email and task/bug tracking system.
+
+}\\\\
+\parbox[t]{35mm}{2010, Jul - \\ 2010, Apr,\\at Fishpond} & \parbox[t]{111mm}{
+
+Moved to user experience team as part of the restructuring in IT department. The team focused on refactoring frontend to improve the separation of contents, styles and interactions by enforcing good practice with HTML, CSS and JQuery. Also worked on improving Solr search indexing and queries. 
+
+}\\\\
+\parbox[t]{35mm}{2010, Apr - \\ 2010, Jan,\\at Fishpond} & \parbox[t]{111mm}{
+
+Started working at Fishpond Ltd which is an Australasian online store selling books, music, movies, games, toys, electronics and stationery. (http://fishpond.co.nz) The sites had about 20 million products listed and 100 thousand page views per day. Developed in PHP under both Zend Framework and legacy style scripts. The customer team was responsible for backend logics for customer facing sites and some internal tools. Exposed to Git for version control. Temporarily took the place of customer team lead for about two to three months due to the original team lead being promoted. Team leader is responsible for clarifying on requirements, break down into sub tasks if necessary, provide a direction of implementation and code reviews. 
+
+}\end{tabular}\\
+\begin{tabular}{ll}
+\parbox[t]{35mm}{2009, Nov - \\ 2009, Jul,\\at Navman} & \parbox[t]{111mm}{
+
+Worked on Middleware project. Split application layer into Middleware and UI to be managed by different teams. On the Middleware side, the aim was to provide an object oriented library with limited functionalities to make it simple and reduce the learning curve on the UI layer. Technically that means switching from internal classes to a public library by refining the interfaces to be less powerful, more intuitive, more robust and well documented to be used by the UI layer.
+
+}\\\\
+\parbox[t]{35mm}{2009, Jul - \\ 2008, Jul,\\at Navman} & \parbox[t]{111mm}{
+
+Worked on a completely newly designed UI inspired by IDEO. (http://ideo.com) Principal ideas in the design are the iPhone-like scrolling and the ability to access the map anywhere and anytime. Smoothness was also an important requirement of the design. Therefore, lots of effort was made to ensure the best performance by simplifying class inheritances and optimising the low level rendering mechanism. Other than the speed of rendering, in order to ensure the best user experience, interactions to touch screens had to be processed and tweaked differently for resistance and capacitive screen.
+
+}\\\\
+\parbox[t]{35mm}{2008, Jul - \\ 2007, Jul,\\at Navman} & \parbox[t]{111mm}{
+
+Started working at Navman Technology which designs Personal Navigation Devices. Exposed to Component Object Model (COM) structure. COM structure is particularly suitable for Navman's business model as there are teams across different sites internationally. The structure can provide robust and extensible interfaces between teams with details of implementation hidden underneath. Exposed to Model-View-Controller (MVC) design pattern which is utilised to present and process user interactions from map display. Designed and programmed a system to animate positions or opacities of UI components which increased smoothness and playfulness which are important in consumer products.
+
+}\\\\
+\parbox[t]{35mm}{2007, June,\\at Metia Interactive} & \parbox[t]{111mm}{
+
+Programmed the Cube Game onto Windows platform using DirectX with programmable vertex and pixel shader. The Windows version includes new features like lighting and shadow to make it ready for Xbox 360.
+
+}\\\\
+\parbox[t]{35mm}{2007, May - \\ 2006, May,\\at Metia Interactive} & \parbox[t]{111mm}{
+
+The Cube project officially started with four programmers and four artists. The game has single player mode, two player mode (AdHoc) and a level editor. The Cube Game had been published in USA, Europe and Japan. (http://thecubegame.com)
+
+}\\\\
+\parbox[t]{35mm}{2006, Jan - Apr,\\at Metia Interactive} & \parbox[t]{111mm}{
+
+Programmed the base structure of the Cube Game on PSP platform. Scheduled the Cube project on milestone basis. Wrote technical documents for the Cube project and provided any technical information publishers requested.
+
+}\\\\
+\parbox[t]{35mm}{2005, Oct  - Nov,\\at Metia Interactive} & \parbox[t]{111mm}{
+
+Programmed the old PC demo of the Cube Game onto PSP platform for Metia Interactive to show at the Australian Game Developers Conference (AGDC).
+
+}\\\\
+\parbox[t]{35mm}{2005, Apr - Sep,\\at Metia Interactive} & \parbox[t]{111mm}{
+
+Programmed the Cube Game in PSP emulator. That included rendering system, level structure, and interaction system between entities. Programmed a PC demo and a level editor of the Cube Game in C\# for Metia Interactive.
+
+}\\\\
+\parbox[t]{35mm}{2005, Feb - \\ 2004,} & \parbox[t]{111mm}{
+
+Completed master thesis about image-based model simplification with a working application implemented using DirectX to analyse the hypothesis.
+
+}\end{tabular}\\
+\begin{tabular}{ll}
+\parbox[t]{35mm}{2004, 21-23 Nov,} & \parbox[t]{111mm}{
+
+Presented a paper about an image-based model simplification technique at IVCNZ '04.
+
+}\\\\
+\parbox[t]{35mm}{2003,} & \parbox[t]{111mm}{
+
+Research project on implementing a non-photorealistic rendering technique called suggestive contours proposed at SIGGRAPH '03. Research project on implementing and optimising a visualisation algorithm called marching cube.
+
+}\\\\
+\parbox[t]{35mm}{2003 - 2004,} & \parbox[t]{111mm}{
+
+Re-designed and programmed the SOIL software for the Structural Engineering Society of New Zealand (SESOC).\\(http://sesoc.org.nz/downloads/soils.html)
+
+}\end{tabular} 
+
+%\newpage
+\vspace{0.15in} 
+
+\section{PUBLICATIONS} 
+\vspace{0.1in}
+
+"Improved Billboard Clouds for Extreme Model Simplification". In-Tai Huang, Kevin Novins and Burkhard Wuensche, \textit{in Proceedings of IVCNZ '04}, Akaroa, New Zealand, 21-23 November 2004, pp. 255-260. 
+
+"Improved Billboard Clouds for Extreme Model Simplification". In-Tai Huang, MSc thesis, Department of Computer Science, University of Auckland, 2004.
+
+\section{REFEREES} 
+\vspace{0.1in}
+
+%Jimmy Lin\\
+%Programmer\\
+%Right Hemisphere\\
+%Ph: 021-2607786
+Available upon request.
+ 
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

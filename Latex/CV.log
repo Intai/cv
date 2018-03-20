@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  12 JUL 2016 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.2)  20 MAR 2018 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **CV.tex
 (./CV.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latex209.def
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latex209.def
 File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
 
 
@@ -40,7 +40,7 @@ File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
 \@cla=\count79
 \@clb=\count80
 \mscount=\count81
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/tracefnt.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/tracefnt.sty
 Package: tracefnt 2015/02/21 v3.0k Standard LaTeX package (font tracing)
 \tracingfonts=\count82
 LaTeX Info: Redefining \selectfont on input line 106.
@@ -51,21 +51,21 @@ LaTeX Info: Redefining \selectfont on input line 106.
 \symitalic=\mathgroup7
 \symsmallcaps=\mathgroup8
 \symslanted=\mathgroup9
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 298.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 299.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 300.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 306.
-LaTeX Info: Redefining \em on input line 316.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 268.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 269.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 270.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 276.
+LaTeX Info: Redefining \em on input line 286.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 377.
-LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 379.
-LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 381.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 332.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 334.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 336.
 )
 Compatibility mode: loading res.sty rather than res.cls.
  (./res.sty
@@ -80,12 +80,12 @@ No auxiliary output files.
 \sectionwidth=\dimen105
 \sectionskip=\skip41
 \resumewidth=\dimen106
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.sty
 Compatibility mode: inputting `article.cls' instead of obsolete `article.sty'.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count83
@@ -105,8 +105,8 @@ Compatibility mode: definition of \bf ignored.
 Compatibility mode: definition of \it ignored.
 Compatibility mode: definition of \sl ignored.
 Compatibility mode: definition of \sc ignored.
-LaTeX Info: Redefining \cal on input line 511.
-LaTeX Info: Redefining \mit on input line 512.
+LaTeX Info: Redefining \cal on input line 496.
+LaTeX Info: Redefining \mit on input line 497.
 \bibindent=\dimen107
 ))
 \@columnwidth=\dimen108
@@ -133,122 +133,122 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 31.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+(Font)              <5> on input line 30.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 52--57
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--57
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--57
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Overfull \hbox (0.6447pt too wide) in paragraph at lines 64--65
+Overfull \hbox (0.6447pt too wide) in paragraph at lines 63--66
 []\OT1/cmr/m/n/10 Developing the mo-bile con-sumer app and sites at GrabOne has
  ex-panded my knowl-edge of JavaScript,
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
+
+ []
+
 [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 66--75
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 67--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--75
+Underfull \hbox (badness 10000) in paragraph at lines 67--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--75
+Underfull \hbox (badness 10000) in paragraph at lines 67--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--75
+Underfull \hbox (badness 10000) in paragraph at lines 67--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
-
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 109--109
+Underfull \hbox (badness 1748) in paragraph at lines 118--118
 []\OT1/cmr/m/n/10 Started work-ing at Fish-pond which is an Aus-tralasian on-li
 ne store
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 
  []
 
 
-Overfull \hbox (5.79025pt too wide) in paragraph at lines 79--142
+Overfull \hbox (5.79025pt too wide) in paragraph at lines 80--151
 [][] 
  []
 
 
-Overfull \hbox (5.79025pt too wide) in paragraph at lines 79--142
+Overfull \hbox (5.79025pt too wide) in paragraph at lines 80--151
 [] 
  []
 
 
-Overfull \hbox (5.79025pt too wide) in paragraph at lines 79--142
+Overfull \hbox (5.79025pt too wide) in paragraph at lines 80--151
 [] 
  []
 
 [2] [3] [4] ) 
 Here is how much of TeX's memory you used:
- 474 strings out of 493089
- 5398 string characters out of 6134842
- 70957 words of memory out of 5000000
- 4011 multiletter control sequences out of 15000+600000
+ 474 strings out of 492995
+ 5398 string characters out of 6132704
+ 72829 words of memory out of 5000000
+ 4079 multiletter control sequences out of 15000+600000
  9903 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,10n,21p,802b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+ 25i,10n,21p,693b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 10.pfb>
-Output written on CV.pdf (4 pages, 77876 bytes).
+Output written on CV.pdf (4 pages, 78463 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

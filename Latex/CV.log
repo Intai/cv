@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.2)  20 MAR 2018 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  11 MAY 2022 01:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **CV.tex
 (./CV.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latex209.def
-File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/latex209.def
+File: latex209.def 2020/11/26 v0.55 Standard LaTeX file
 
 
           Entering LaTeX 2.09 COMPATIBILITY MODE
@@ -34,16 +34,18 @@ File: latex209.def 2015/02/22 v0.53 Standard LaTeX file
  author of that file.
  *************************************************************
 
-\footheight=\dimen102
-\@maxsep=\dimen103
-\@dblmaxsep=\dimen104
-\@cla=\count79
-\@clb=\count80
-\mscount=\count81
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/tracefnt.sty
-Package: tracefnt 2015/02/21 v3.0k Standard LaTeX package (font tracing)
-\tracingfonts=\count82
-LaTeX Info: Redefining \selectfont on input line 106.
+\footheight=\dimen138
+\@maxsep=\dimen139
+\@dblmaxsep=\dimen140
+\@cla=\count185
+\@clb=\count186
+\mscount=\count187
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/tracefnt.sty
+Package: tracefnt 2020/12/22 v3.0n Standard LaTeX package (font tracing)
+\tracingfonts=\count188
+LaTeX Info: Redefining \selectfont on input line 107.
+Applying: [2021/06/01] Add hook to \selectfont  on input line 142.
+Already applied: [0000/00/00] Add hook to \selectfont  on input line 145.
 )
 \symbold=\mathgroup4
 \symsans=\mathgroup5
@@ -51,53 +53,53 @@ LaTeX Info: Redefining \selectfont on input line 106.
 \symitalic=\mathgroup7
 \symsmallcaps=\mathgroup8
 \symslanted=\mathgroup9
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 268.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 269.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 270.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 276.
-LaTeX Info: Redefining \em on input line 286.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 275.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 276.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 277.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 283.
+LaTeX Info: Redefining \em on input line 293.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 332.
-LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 334.
-LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 336.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 339.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 341.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 343.
 )
 Compatibility mode: loading res.sty rather than res.cls.
  (./res.sty
 Document Style `res' <26 Sep 89>.
 No auxiliary output files.
 
-\tabular@text=\toks14
-\tabular@head=\toks15
-\tabular@tail=\toks16
-\@ta=\toks17
-\undefined@token=\toks18
-\sectionwidth=\dimen105
-\sectionskip=\skip41
-\resumewidth=\dimen106
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.sty
+\tabular@text=\toks16
+\tabular@head=\toks17
+\tabular@tail=\toks18
+\@ta=\toks19
+\undefined@token=\toks20
+\sectionwidth=\dimen141
+\sectionskip=\skip47
+\resumewidth=\dimen142
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.sty
 Compatibility mode: inputting `article.cls' instead of obsolete `article.sty'.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count83
-\c@section=\count84
-\c@subsection=\count85
-\c@subsubsection=\count86
-\c@paragraph=\count87
-\c@subparagraph=\count88
-\c@figure=\count89
-\c@table=\count90
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
+\c@part=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
 Compatibility mode: definition of \rm ignored.
 Compatibility mode: definition of \sf ignored.
 Compatibility mode: definition of \tt ignored.
@@ -105,28 +107,35 @@ Compatibility mode: definition of \bf ignored.
 Compatibility mode: definition of \it ignored.
 Compatibility mode: definition of \sl ignored.
 Compatibility mode: definition of \sc ignored.
-LaTeX Info: Redefining \cal on input line 496.
-LaTeX Info: Redefining \mit on input line 497.
-\bibindent=\dimen107
+LaTeX Info: Redefining \cal on input line 497.
+LaTeX Info: Redefining \mit on input line 498.
+\bibindent=\dimen143
 ))
-\@columnwidth=\dimen108
-\c@numberofcolumns=\count91
+\@columnwidth=\dimen144
+\c@numberofcolumns=\count197
 )
 (./fancyhead.sty
-\headrulewidth=\dimen109
-\footrulewidth=\dimen110
-\plainheadrulewidth=\dimen111
-\plainfootrulewidth=\dimen112
-\headwidth=\dimen113
+\headrulewidth=\dimen145
+\footrulewidth=\dimen146
+\plainheadrulewidth=\dimen147
+\plainfootrulewidth=\dimen148
+\headwidth=\dimen149
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count198
+\l__pdf_internal_box=\box50
 )
 No file CV.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -136,122 +145,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 30.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 30
+.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
+) [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-
-Overfull \hbox (0.6447pt too wide) in paragraph at lines 63--66
-[]\OT1/cmr/m/n/10 Developing the mo-bile con-sumer app and sites at GrabOne has
- ex-panded my knowl-edge of JavaScript,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
-
- []
-
-[1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 67--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 118--118
-[]\OT1/cmr/m/n/10 Started work-ing at Fish-pond which is an Aus-tralasian on-li
-ne store
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-
- []
-
-
-Overfull \hbox (5.79025pt too wide) in paragraph at lines 80--151
-[][] 
- []
-
-
-Overfull \hbox (5.79025pt too wide) in paragraph at lines 80--151
-[] 
- []
-
-
-Overfull \hbox (5.79025pt too wide) in paragraph at lines 80--151
-[] 
- []
-
-[2] [3] [4] ) 
+[3] [4] ) 
 Here is how much of TeX's memory you used:
- 474 strings out of 492995
- 5398 string characters out of 6132704
- 72829 words of memory out of 5000000
- 4079 multiletter control sequences out of 15000+600000
- 9903 words of font info for 37 fonts, out of 8000000 for 9000
+ 741 strings out of 478268
+ 12391 string characters out of 5846347
+ 309878 words of memory out of 5000000
+ 18998 multiletter control sequences out of 15000+600000
+ 475522 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,10n,21p,693b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-10.pfb>
-Output written on CV.pdf (4 pages, 78463 bytes).
+ 55i,11n,51p,639b,214s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb>
+Output written on CV.pdf (4 pages, 73051 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

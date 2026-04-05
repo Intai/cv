@@ -33,20 +33,24 @@
 \section{SKILLS PROFILE} 
 \vspace{0.1in}
 
-I am a software developer and architect with 20+ years of experience delivering applications across web, mobile, and embedded platforms. I have expertise in JavaScript, Dart, C/C++, Objective-C, and PHP, with a foundation in computer graphics using OpenGL and DirectX. My career spans game development on the Sony PlayStation Portable, large-scale web applications, and more recently, AI agentic software development for delivering production-ready solutions.
+I am a software developer and architect with 20+ years of experience delivering applications across web, mobile, and embedded platforms. I have expertise in JavaScript, Dart, C/C++, Objective-C, and PHP ecosystems, with a foundation in computer graphics using OpenGL and DirectX. My career spans game development on the Sony PlayStation Portable, mobile application development, and large-scale web applications. Across these roles, I prioritise business outcomes over technology-driven decisions. I believe systems should be observable, secure, and testable from day one and everyday, not afterthoughts. More recently, I have been applying AI agentic development workflow to deliver production-ready solutions, and I actively look for opportunities to introduce these practices to improve team efficiency.
+
+% I am a software developer and architect with 20+ years of experience delivering applications across web, mobile, and embedded platforms. I like to be hands-on in one of the squads, I believe that helps me make better technical decisions and better team chemistry. I have experience modernising legacy systems and delivering production-ready platforms. At P97, I designed and implemented CI/CD pipelines in Azure, incorporating a full testing pyramid (unit, integration, E2E, and visual regression) with QA to ensure quality across all environments. We provisioned cloud infrastructure using Terraform with Azure Container Registry, Container Apps, and Azure Functions to support scalable, cloud-native services.
+
+% At ProjectManager.com, we migrated incrementally from a legacy jQuery application to React while transitioning infrastructure from physical servers to AWS. This included using CloudFormation, CodeBuild, CodeDeploy, CodePipeline, ECR, ECS and EC2, as well as handling the challenges of migrating a live MSSQL database with minimal disruption. The approach prioritised coexistence of old and new systems to enable continuous delivery.
+
+% Earlier at Fishpond, we stabilised a fragile PHP-based platform by introducing automated QA, formalising release processes, and improving cross-team coordination. Established regression and performance testing, improved observability through monitoring and outage reporting, and shifted toward more proactive risk management.
+
+% Across these roles, I prioritise business outcomes over technology-driven change. I assess whether a system truly needs to be replaced--if it is stable, secure, and not a bottleneck for change, migration may not be justified. Where modernisation is required, I favour incremental refactoring over full rewrites to reduce risk, shorten feedback loops, and enable continuous delivery of value. I believe systems should be observable, secure, and testable from day one and everyday, not afterthoughts. More recently, I have been applying AI agentic development workflow for delivering production-ready solutions, and I actively look for opportunities to introduce these practices to improve team efficiency.
 
 \section{PERSONAL PROJECTS} 
 \vspace{0.1in}
 
-Published an agentic development workflow as a Claude Code plugin for marketplaces to automate and streamline software development, from story planning to fully tested implementation. The plugin is open-sourced on GitHub (https://github.com/Intai/story-flow). I actively use this workflow to develop BetterWeatherForLife (https://github.com/Intai/betterweatherfor-life), an AI-powered website helping outdoor enthusiasts quickly find the best locations for activities like SUP, kayaking, snorkeling, and cycling based on weather, tide, and sea conditions.
+Published an agentic development workflow as a Claude Code plugin for marketplaces to automate and streamline software development, from story planning to fully tested implementation. The plugin is open-sourced on GitHub (https://github.com/Intai/story-flow). I actively use this workflow to develop BetterWeatherForLife (https://github.com/Intai/betterweatherfor-life), an AI-powered website that leverages LangGraph to orchestrate LLMs for analysing weather, tide, and sea conditions, helping outdoor enthusiasts quickly identify optimal locations and timing, as well as LegalDocAI (https://github.com/Intai/legaldoc-ai), a portfolio project demonstrating AI-assisted legal document generation with RAG-based question answering, backed by a vector database.
 
-Developed CyphrIM, a distributed messaging web app built on GUN (https://gun.eco), an open-source distributed graph database. All messages are encrypted using public keys and synchronised directly peer-to-peer between browsers. Because of encryption and decentralisation, no server stores or owns user data. The application is open-sourced on GitHub (https://github.com/Intai/cyphrim-com).
+Developed CyphrIM, a distributed messaging web app built on GUN, an open-source graph database. Messages are end-to-end encrypted and synchronised peer-to-peer between browsers, ensuring no central server stores user data. Open-sourced on GitHub (https://github.com/Intai/cyphrim-com).
 
 Created Bdux, a Flux architecture inspired by Bacon.js, Redux, and React, released as an open-source npm package (https://www.npmjs.com/\%7Eintai). Bdux is fully reactive from action to React component and supports Redux-style time travel and SSR via middleware and reducers.
-
-Developed MyRadio, a podcast management app using AngularJS, Bacon.js, Underscore.js, Traceur, Sass, Browserify, Gulp, and Firebase. Experimented with applying the Facebook Flux dispatcher concept in AngularJS and focused on creating directives to minimise view-controller logic.
-
-Developed and hosted PixPrism using Symfony2, MySQL, Sass, RequireJS, and Puppet on EC2 and S3 to generate mobile-friendly photo galleries for any website.
 
 \section{WORK HISTORY and EXPERIENCE} 
 \vspace{0.15in} 
@@ -58,15 +62,16 @@ The Mobile Experience Manager (MEM) Portal enables tenants to configure template
 
 Implemented an agentic development workflow leveraging AI (Claude Code) for story planning, task dependency analysis, implementation, code review, and automated BDD scenario execution, including Playwright scripts for regression testing, enabling rapid delivery of fully tested, production-ready software.
 
-\newpage
-\vspace{0.15in} 
-
+\begin{minipage}{\textwidth}
+\vspace{0.03in}
 \hspace*{-0.25in} 2022 Aug - 2025 Jun,\\
 \hspace*{-0.25in} Software Architect at P97 Networks
+\vspace{0.165in}
 
-The Fleet360 Portal helps companies monitor vehicle usage, assign drivers, track fuel usage, and detect fraud, allowing businesses to make informed decisions that lower costs and improve efficiency. It's a greenfield product that we setup from the ground up. Everyone on the scrum team is full-stack; however, my responsibilities focus on frontend development. It's a typical React single-page application with GraphQL. GraphQL is part of the architecture because we plan to introduce microservices as the product scales. It provides a clean way to aggregate independent, loosely coupled services for frontend consumption. Additionally, a Flutter companion app enables payments at petrol stations.
+The Fleet360 Portal helps companies monitor vehicle usage, assign drivers, track fuel usage, and detect fraud, allowing businesses to make informed decisions that lower costs and improve efficiency. It's a greenfield product that we setup from the ground up. Everyone on the scrum team is full-stack; however, my responsibilities focus on frontend development. It's a React single-page application with GraphQL. GraphQL is part of the architecture because we plan to introduce microservices as the product scales. It provides a clean way to aggregate independent, loosely coupled services for frontend consumption. Additionally, a Flutter companion app enables payments at petrol stations.
+\end{minipage}
 
-Applied established frontend practices such as structured state management and reactive, functional programming (Redux, RxJS, Ramda), with containerisation to ensure consistent development and deployment (Docker). Ensured product quality through enforced linting, 100\% unit test coverage, automated integration and end-to-end (E2E) testing, and visual regression testing, aligned with the testing pyramid.
+Applied established frontend practices such as structured state management and reactive, functional programming (Redux, RxJS, Ramda), with containerisation to ensure consistent development and deployment (Docker). Ensured product quality through enforced linting, 100\% unit test coverage, automated integration and end-to-end (E2E) testing, and visual regression testing, aligned with the testing pyramid in Azure Pipelines continuously.
 
 Managed the two-week Scrum cycle, including design sessions, shaping technical requirements for Jira stories, and facilitating ceremonies (grooming, team refinement, and retrospectives) to align the team on feature delivery.
 
@@ -89,18 +94,19 @@ Took on a contract to work on the MyVodafone self-service app in React Native. T
 
 Started working at ProjectManager.com to create a new web app for hybrid project management between Agile and Waterfall. Technically switching from server side rendered JQuery codebase to a React single-page app. To meet MVP timelines, the approach enabled both codebases to coexist rather than pursuing a full rewrite.
 
-\newpage
-\vspace{0.15in} 
-
+\begin{minipage}{\textwidth}
+\vspace{0.03in}
 \hspace*{-0.25in} 2015 May - 2016 Aug,\\
 \hspace*{-0.25in} Senior Developer at Vodafone
+\vspace{0.165in}
 
 Worked on the MyVodafone web app. The JavaScript codebase used AngularJS 1.2 and Bootstrap 3, with extensive reliance on jQuery plugins. The integrations between these technologies were fragile, and the widespread use of global scope and large controllers made the application difficult to maintain. Refactored the codebase by removing global scope usage and breaking down directives into more modular components, significantly improving maintainability and readability.
+\end{minipage}
 
 \hspace*{-0.25in} 2014 Jul - 2015 Apri,\\
 \hspace*{-0.25in} Developer at Findly
 
-Worked at Findly on the Pollinator project to capture job applicants' details directly, and on CXApply to acquire applicants from other ATS (Applicant Tracking Systems) by providing mobile-friendly versions of their websites. The codebase suffered from limitations of frameworks like AngularJS, including complex and tightly coupled view-model relationships -- an issue later addressed by React and Flux.
+Worked at Findly on the Pollinator project to capture job applicants' details directly, and on CXApply to acquire applicants from other ATS (Applicant Tracking Systems) by providing mobile-friendly versions of their websites. The codebase suffered from limitations of frameworks like AngularJS, including complex and tightly coupled view-model relationships--an issue later addressed by React and Flux.
 
 \hspace*{-0.25in} 2011 Jun - 2014 Jul,\\
 \hspace*{-0.25in} Developer at GrabOne
@@ -119,15 +125,16 @@ The team later expanded beyond release management to include three additional ov
 \hspace*{-0.25in} 2010 Jan - 2010 Apr,\\
 \hspace*{-0.25in} Developer at Fishpond
 
-Started working at Fishpond, supporting sites with approximately 20 million listed products and 100,000 daily page views. Developed in PHP using both Zend Framework and legacy scripts. The customer team handled backend logic for customer-facing sites and Solr search indexing. Temporarily acted as customer team lead for two to three months due to a promotion, responsible for clarifying requirements, breaking tasks into subtasks, providing technical direction, and performing code reviews.
+Started working at Fishpond, supporting sites with approximately 20 million listed products and 100,000 daily page views. Developed in PHP using both Zend Framework and legacy scripts. The customer team handled backend logic for customer-facing sites and Solr search indexing.
 
-\newpage
-\vspace{0.15in} 
-
+\begin{minipage}{\textwidth}
+\vspace{0.03in}
 \hspace*{-0.25in} 2007 Jul - 2010 Jan,\\
 \hspace*{-0.25in} Developer at Navman
+\vspace{0.165in}
 
-Worked at Navman Technology, which designs Personal Navigation Devices. Gained experience with Component Object Model (COM) architecture, well-suited for Navman's international, multi-site team structure, providing robust and extensible interfaces while hiding implementation details. Utilised the Model-View-Controller (MVC) design pattern to present and process user interactions from the map display.
+Worked at Navman Technology, which designs Personal Navigation Devices. Gained experience with Component Object Model (COM) architecture, providing robust and extensible interfaces while hiding implementation details. Utilised the Model-View-Controller (MVC) design pattern to present and process user interactions from the map display.
+\end{minipage}
 
 Worked on a newly designed UI inspired by IDEO (http://ideo.com), featuring iPhone-like scrolling and the ability to access the map anywhere, anytime. Smooth performance was a key requirement, so significant effort was made to optimise class inheritance, streamline low-level rendering, and fine-tune the interface for resistive and capacitive touch screens separately.
 

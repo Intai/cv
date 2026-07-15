@@ -8,32 +8,31 @@
 \oddsidemargin=0pt   % leftmargin is 1 inch
 \textwidth=6.5in     % textwidth of 6.5in leaves 1 inch for right margin
 
+\makeatletter                                                                                                                                                                                                                                                                
+  \renewcommand*\opening[1]{%                                                                                                                                                                                                                                                  
+    \thispagestyle{firstpage}%                                                                                                                                                                                                                                                 
+    {\raggedleft\@date\par}%                                                                                                                                                                                                                                                   
+    \vspace{2\parskip}%                                                                                                                                                                                                                                                        
+    #1\par\nobreak}                                                                                                                                                                                                                                                            
+  \makeatother
 
 \begin{document}
 
-\signature{In-Tai Huang}           % name for signature 
-\longindentation=0pt                       % needed to get closing flush left
-\let\raggedleft\raggedright                % needed to get date flush left
- 
- 
-\begin{letter}{
-\\
-Auckland, New Zealand
-}
- 
+\signature{Intai Huang}      % name for signature 
+\longindentation=0pt     % needed to get closing flush left
+\let\raggedleft\raggedright     % needed to get date flush left
+
+\begin{letter}{}
 \opening{Dear Employment Manager,} 
- 
-\noindent I have 2 years of commercial experience with iOS development in GrabOne. The app contains a native wrapper handles integration with key chain, passbook and reminders and management of location and push notification. The user interface is implemented in HTML5 and forked JQuery Mobile with optimisations for GrabOne. Prior to GrabOne, I had 5 years experience with C/C++ on mobile devices i.e. Sony PSP and Navman Personal Navigation Device.
 
-\noindent I would appreciate an opportunity to discuss with you and answer any question you may have. A pdf file of my CV with additional information about my qualifications is enclosed. Thank you very much for your time and consideration. Please reply to intai.hg@gmail.com. I look forward to receiving your reply. 
- 
+\noindent Sorry to bother you. I came across this job post on LinkedIn and was wondering if it's open to contractors based in Auckland. For contract roles, I am currently targeting an hourly rate of around NZ\$150. Thank you very much for your time and consideration.
+
+%\noindent I would appreciate an opportunity to discuss with you and answer any question you may have. A pdf file of my CV with additional information about my qualifications is enclosed. Thank you very much for your time and consideration. Please reply to intai.hg@gmail.com. I look forward to receiving your reply. 
+
 \closing{Sincerely,} 
- 
 
- 
-\encl{CV}					% Enclosures
+\encl{CV}     % Enclosures
 
 \end{letter}
- 
 
 \end{document}

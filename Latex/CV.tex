@@ -71,7 +71,7 @@ FarmlandsPRO is a React web app, packaged for iOS and Android with Capacitor, th
 
 Each user story is planned as requirements and tasks against the Azure DevOps work item, analysed for task dependencies, implemented, reviewed, and verified with BDD scenarios recorded as Playwright regression specs, including visual regression and mobile runs on BrowserStack.
 
-Built GitHub Actions to run the regression specs nightly, as smoke tests on every merge, and on preprod and production. Failed runs raise a GitHub issue for the team. An AI agent then triages each failed scenario against its user story. It deletes obsolete scenarios, updates and re-records outdated ones, or reports defects, and opens a draft pull request for review.
+Built GitHub Actions to run the regression specs nightly, as smoke tests on every merge, and on preprod and production. Failed runs raise a GitHub issue. An AI agent then triages each failed scenario against its user story, keeping the regression suite autonomously maintained. It deletes obsolete scenarios, updates and re-records outdated ones, or reports defects, and opens a draft pull request for review.
 
 \begin{minipage}{\textwidth}
 \vspace{0.03in}

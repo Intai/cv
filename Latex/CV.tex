@@ -69,9 +69,11 @@ Created Bdux, a Flux architecture inspired by Bacon.js, Redux, and React, releas
 FarmlandsPRO is a React web app, packaged for iOS and Android with Capacitor, that farmers and rural professionals use to shop, manage orders and review account transactions. I joined to introduce a structured agentic development workflow centred on technical planning and QA automation, enabling junior developers to deliver at a senior level.
 \end{minipage}
 
-Each user story is planned as requirements and tasks against the Azure DevOps work item, analysed for task dependencies, implemented, reviewed, and verified with BDD scenarios recorded as Playwright regression specs, including visual regression and mobile runs on BrowserStack.
+Each user story is driven by AI agents in a human-in-the-loop workflow: planned as requirements and tasks against the Azure DevOps work item, analysed for task dependencies, implemented, reviewed, and verified with BDD scenarios recorded as Playwright regression specs, including visual regression and mobile runs on BrowserStack.
 
 Built GitHub Actions to run the regression specs nightly, as smoke tests on every merge, and on preprod and production. Failed runs raise a GitHub issue. An AI agent then triages each failed scenario against its user story, keeping the regression suite autonomously maintained. It deletes obsolete scenarios, updates and re-records outdated ones, or reports defects, and opens a draft pull request for review.
+
+Introduced LangGraph agents to triage BAU tickets, cutting the legwork between a bug being raised and reaching the right team. The agents flag missing information, catch duplicates early, and propose consistent, explainable severity, priority and ownership. Humans stay in control by approving every proposal, and each decision feeds back into the evaluation. Quality is measured, not assumed. Every node is evaluated in LangSmith against real historical tickets before a model or prompt change ships.
 
 \begin{minipage}{\textwidth}
 \vspace{0.03in}
@@ -99,7 +101,7 @@ The Mobile Experience Manager (MEM) Portal enables tenants to configure template
 \hspace*{-0.25in} Software Architect at P97 Networks
 \vspace{0.165in}
 
-The Fleet360 Portal helps companies monitor vehicle usage, assign drivers, track fuel usage, and detect fraud, allowing businesses to make informed decisions that lower costs and improve efficiency. It's a greenfield product that we setup from the ground up. It's a React single-page application with GraphQL. GraphQL is part of the architecture because we plan to introduce microservices as the product scales. It provides a clean way to aggregate independent, loosely coupled services for frontend consumption. Additionally, a Flutter companion app enables payments at petrol stations.
+The Fleet360 Portal helps companies monitor vehicle usage, assign drivers, track fuel usage, and detect fraud, allowing businesses to make informed decisions that lower costs and improve efficiency. It's a greenfield product that we setup from the ground up. The frontend is a React single-page application with GraphQL which provides a clean way to aggregate independent, loosely coupled services for frontend consumption. Additionally, a Flutter companion app enables payments at petrol stations.
 \end{minipage}
 
 Applied established frontend practices such as structured state management and reactive, functional programming (Redux, RxJS, Ramda), with containerisation to ensure consistent development and deployment (Docker). Ensured product quality through enforced linting, 100\% unit test coverage, automated integration and end-to-end (E2E) testing, and visual regression testing, aligned with the testing pyramid in Azure Pipelines continuously.
